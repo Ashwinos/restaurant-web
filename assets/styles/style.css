@@ -1,0 +1,138 @@
+
+.nav-logo{
+    height: 50px;
+}
+
+.owl-carousel .item {
+    position: relative;
+    height: 100vh; 
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.owl-carousel .item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+
+}
+
+.owl-carousel .owl-nav button:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+   background: rgba(229, 229, 229, 0.3) !important; 
+    color: #ffffff; /* arrow color */
+    border: none;
+    border-radius: 50%;
+    font-size: 28px; /* bigger arrow */
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: rgba(255, 193, 7, 1); 
+    color: #fff;
+}
+
+.youtube{
+     border-radius: 30px; 
+     overflow: hidden;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.logos{
+    width: 45px;
+}
+
+.logo-twitter{
+    width: 75px;
+}
+
+.social-media {
+    background-image: url(/assets/images/texture.png);
+    background-blend-mode: luminosity; 
+    opacity: 1;
+
+
+}
+
+.locations{
+  background: linear-gradient(
+        rgba(59, 42, 42, 0.6),  
+        rgba(0, 0, 0, 0.6)
+    ),
+    url("/assets/images/burger.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-icon i{
+    font-size: 18px;
+}
+
+.description {
+  align-items: center; 
+  gap: 8px;            
+}
+.description h4 {
+  font-size: 1.0rem; 
+}
+
+.testimonial{
+    background-color: #f3f2f2;
+}
+
