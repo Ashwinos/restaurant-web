@@ -1,4 +1,10 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+    }
 .nav-logo{
     height: 50px;
 }
@@ -102,7 +108,7 @@
 }
 
 .social-media {
-    background-image: url(/assets/images/texture.png);
+    background-image: url(../images/texture.png);
     background-blend-mode: luminosity; 
     opacity: 1;
 
